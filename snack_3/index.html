@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <form method="GET" action="validate.php">
+
+      <!-- Nome -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      <!-- /Nome -->
+
+      <!-- Email -->
+      <label for="mail">Email:</label>
+      <input type="mail" id="mail" name="mail" required />
+      <!-- /Email -->
+
+      <!-- Age -->
+      <label for="age">Età:</label>
+      <input type="number" id="age" name="age" />
+      <!-- /Age -->
+      <hr>
+      <input type="submit" value="Invia dati">
+
+    </form>
+  </body>
+</html>
